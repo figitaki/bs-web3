@@ -1,0 +1,14 @@
+{
+  "name": "bs-web3",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "sources": [
+    "src",
+    {
+      "dir": "example",
+      "type": "dev"
+    }
+  ],
+  "refmt": 3
+}
