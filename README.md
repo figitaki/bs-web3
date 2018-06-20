@@ -2,7 +2,8 @@
 
 [Web3](https://github.com/ethereum/web3.js) bindings for [BuckleScript](https://github.com/bloomberg/bucklescript) in [Reason](https://github.com/facebook/reason).
 
-[![npm](https://img.shields.io/npm/v/bs-web3.svg?style=flat-square)](https://www.npmjs.com/package/bs-web3) [![Travis](https://img.shields.io/travis/figitaki/bs-web3.svg?style=flat-square)](https://travis-ci.org/figitaki/bs-web3)
+[![npm](https://img.shields.io/npm/v/bs-web3.svg?style=flat-square)](https://www.npmjs.com/package/bs-web3) [![Travis](https://img.shields.io/travis/figitaki/bs-web3.svg?style=flat-square)](https://travis-ci.org/figitaki/bs-web3) ![David](https://img.shields.io/david/figitaki/bs-web3.svg?style=flat-square) ![Coveralls github](https://img.shields.io/coveralls/github/figitaki/web3-svg.svg?style=flat-square)
+
 
 This package is currently under development, and not suited for production.
 
