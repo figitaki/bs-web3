@@ -2,8 +2,7 @@
 
 [Web3](https://github.com/ethereum/web3.js) bindings for [BuckleScript](https://github.com/bloomberg/bucklescript) in [Reason](https://github.com/facebook/reason).
 
-[![npm](https://img.shields.io/npm/v/bs-web3.svg?style=flat-square)](https://www.npmjs.com/package/bs-web3) [![Travis](https://img.shields.io/travis/figitaki/bs-web3.svg?style=flat-square)](https://travis-ci.org/figitaki/bs-web3) ![David](https://img.shields.io/david/figitaki/bs-web3.svg?style=flat-square) ![Coveralls github](https://img.shields.io/coveralls/github/figitaki/web3-svg.svg?style=flat-square)
-
+[![npm](https://img.shields.io/npm/v/bs-web3.svg?style=flat-square)](https://www.npmjs.com/package/bs-web3) [![Travis](https://img.shields.io/travis/figitaki/bs-web3.svg?style=flat-square)](https://travis-ci.org/figitaki/bs-web3) ![David](https://img.shields.io/david/figitaki/bs-web3.svg?style=flat-square) ![David](https://img.shields.io/david/dev/figitaki/express.svg?style=flat-square) ![Coveralls github](https://img.shields.io/coveralls/github/figitaki/web3-svg.svg?style=flat-square)
 
 This package is currently under development, and not suited for production.
 
@@ -12,16 +11,23 @@ This package is currently under development, and not suited for production.
 Install bs-web3 using npm:
 
 ```
-npm install web3
+npm install bs-web3
 ```
 
 Alternatively, using yarn:
 
 ```
-yarn add web3
+yarn add bs-web3
 ```
 
-Then add bs-web3 as a dependency to `bsconfig.json`
+Then add `bs-web3` as a dependency to `bsconfig.json`
+
+```json
+{
+  ...
+  "bs-dependencies": ["bs-web3"]
+}
+```
 
 ## Usage
 
