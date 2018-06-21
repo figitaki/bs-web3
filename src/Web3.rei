@@ -7,8 +7,9 @@ module Utils: {
 let version: string;
 
 type web3;
+
 type provider;
 
-let create: provider => web3;
+let create: option(provider) => web3;
 
 let givenProvider: option(provider);
